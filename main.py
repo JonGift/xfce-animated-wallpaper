@@ -12,6 +12,7 @@ if direction.lower() == 'left':
     for i in cycle(reversed(range(1, 521))):
         time.sleep(2)
         wallpaper(i)
+
 elif direction.lower() == 'right':
     for i in cycle(range(1, 521)):
         time.sleep(2)
